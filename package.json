@@ -1,0 +1,30 @@
+{
+  "name": "pdf_manager",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/fidoaf/pdf_manager#readme",
+  "bugs": {
+    "url": "https://github.com/fidoaf/pdf_manager/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fidoaf/pdf_manager.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "merge": "tsx merge.ts",
+    "merge:help": "tsx merge.ts --help",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  }
+}
